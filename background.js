@@ -9,7 +9,7 @@ chrome.action.onClicked.addListener(async () => {
     const response = await fetch('https://api.gemini.com/v1/generate', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer AIzaSyA7vgcYrIsd2M5T8H90veWRAagL-dHaSiQ',
+        'Authorization': 'Bearer APIKEY',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({

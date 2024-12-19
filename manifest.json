@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Query",
+    "version": "1.0",
+    "description": "A simple extension to query the Gemini API.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "scripting", "storage"]
+  }
